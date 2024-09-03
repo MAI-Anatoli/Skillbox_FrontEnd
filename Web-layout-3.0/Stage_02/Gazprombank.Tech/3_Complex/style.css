@@ -1,0 +1,71 @@
+body {
+  font-family: "Noto Sans", "Exo 2", "Arial", sans-serif;
+  font-size: 15px;
+  line-height: 22px;
+}
+
+.text-block h1 {
+  font-family: "Exo 2";
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 46px;
+  text-align: center;
+}
+
+.text-block h2 {
+  font-family: "Exo 2";
+  font-size: 32px;
+  font-weight: 700;
+  line-height: 38px;
+}
+
+blockquote {
+  border-radius: 12px;
+  background: linear-gradient(180.00deg, rgb(85, 167, 243),rgb(71, 100, 231) 100%);
+  color: rgb(255, 255, 255);
+}
+
+q {
+  color: rgb(66, 92, 211);
+  quotes: none;
+  font-style: italic;
+}
+
+.text-block a {
+  text-decoration: underline;
+  color: rgb(66, 92, 211);
+  font-weight: 500;
+}
+
+figure {
+  background: #e1eeff;;
+  color: rgba(30, 34, 46, 0.5);
+  font-size: 12px;
+  line-height: 16px;
+  letter-spacing: 4%;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.text-block h3 {
+  font-family: "Exo 2";
+  font-size: 24px;
+  line-height: 30px;
+  font-weight: 700;
+}
+
+table {
+  background: rgb(244, 246, 250);
+}
+
+table th {
+  font-weight: 400;
+  color: rgb(108, 18, 90);
+  letter-spacing: 0.04em;
+  text-align: left;
+  text-transform: uppercase;
+}
+
+table td {
+  color: rgb(66, 92, 211);
+}
