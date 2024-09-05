@@ -1,4 +1,4 @@
 {
-    "files.autoSave": "onFocusChange",
+    "files.autoSave": "onWindowChange",
     "editor.fontSize": 16
 }
