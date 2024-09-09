@@ -1,0 +1,97 @@
+.team {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+}
+
+.team__card {
+    border-radius: 20px;
+    background-color: rgb(242, 243, 238);
+    width: 600px;
+    padding: 30px;
+
+}
+
+.team__position {
+    display: block;
+    color: rgb(29, 37, 45);
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 18px;
+    text-align: left;
+    margin: 0 0 5px 0;
+}
+
+.team__name {
+    display: block;
+    color: rgb(29, 37, 45);
+    font-size: 24px;
+    font-weight: 300;
+    line-height: 30px;
+    letter-spacing: 0.04em;
+    text-align: left;
+    text-transform: uppercase;
+    margin: 0 0 20px 0;
+}
+
+.team__content {
+    display: flex;
+    justify-content: flex-end;
+    gap: 30px;
+}
+
+.team__photo {
+    border-radius: 12px;
+    width: 220px;
+    height: 330px;
+}
+
+.team__text {
+    display: flex;
+    flex-direction: column;
+}
+
+.team__quote {
+    color: rgb(29, 37, 45);
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 22px;
+    text-align: left;
+    margin: 0 0 20px 0;
+}
+
+.team__experience {
+    color: rgb(29, 37, 45);
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 18px;
+    text-align: right;
+    margin: 0 0 20px 0;
+}
+
+.team__actions {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-top: auto;
+}
+
+.team__button {
+    border-radius: 40px;
+    color: rgb(29, 37, 45);
+    font-size: 14px;
+    font-weight: 300;
+    text-align: center;
+    padding: 7px;
+    width: 140px;
+    margin: 0;
+}
+
+.team__button--dark {
+    background-color: rgb(214, 210, 196);
+}
+
+.team__card--centred .team__quote,
+.team__card--centred .team__experience {
+    text-align: center;
+}
