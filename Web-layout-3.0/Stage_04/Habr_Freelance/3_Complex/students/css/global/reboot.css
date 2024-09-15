@@ -1,0 +1,31 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #1f2023;
+  color: #ffffff;
+  display: flex;
+  flex-direction: column;
+  font-family: "Golos Text", "Arial", sans-serif;
+  margin: 0;
+  min-height: 100vh;
+  min-width: 1240px;
+  padding: 0;
+}
+
+main {
+  flex-grow: 1;
+}
+
+img {
+  display: block;
+  height: auto;
+  max-width: 100%;
+  object-fit: cover;
+}
+
+a {
+  color: #ffffff;
+  text-decoration: none;
+}

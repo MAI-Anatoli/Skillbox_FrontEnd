@@ -1,11 +1,12 @@
 {
   "files.autoSave": "afterDelay",
   "editor.fontSize": 18,
-  "workbench.iconTheme": "material-icon-theme",
+  "workbench.iconTheme": "vs-seti",
   "ecsstractor_port.bem_nesting": true,
   "ecsstractor_port.attributes": "className",
   "ecsstractor_port.comment_style": "css",
   "editor.cursorBlinking": "expand",
   "editor.cursorStyle": "line-thin",
-  "editor.cursorSmoothCaretAnimation": "on"
+  "editor.cursorSmoothCaretAnimation": "on",
+  "liveServer.settings.port": 5502
 }

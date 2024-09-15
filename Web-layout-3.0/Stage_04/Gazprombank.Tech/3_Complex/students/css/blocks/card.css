@@ -1,0 +1,156 @@
+.card {
+  display: flex;
+  align-items: baseline;
+  flex-wrap: wrap;
+  gap: 30px;
+}
+
+.card__content {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 32px;
+}
+
+.card__content--narrow {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 32px;
+}
+
+.card__offers {
+  display: flex;
+  flex-direction: column;
+  background-color: #E7EFFF;
+  border-radius: 12px;
+  width: 604px;
+  min-height: 300px;
+  padding: 32px;
+}
+
+.card__content--narrow .card__offers {
+  width: 286px;
+  min-height: 400px;
+  padding: 32px 20px 20px;
+  align-items: center;
+}
+
+.card__img {
+  max-width: 280px;
+  max-height: 180px;
+}
+
+
+.card__offers--debit {
+  background-color: #476BF0;
+}
+
+.card__offers--mortgage {
+  background-color: #CFF6E7;
+}
+
+.card__offers--benefit {
+  background-color: #C4E7FF;
+}
+
+.card__description {
+  display: flex;
+  gap: 20px;
+}
+
+.card__content--narrow .card__description {
+  flex-direction: column;
+  gap: unset;
+}
+
+.card__info {
+  width: 240px;
+}
+
+.card__content--narrow .card__info {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+
+.card__content--narrow .card__description {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.card__target {
+  display: block;
+  border: 1px solid rgba(30, 34, 46, 0.5);
+  border-radius: 4px;
+  color: rgba(30, 34, 46, 0.5);
+  font-size: 10px;
+  font-weight: 500;
+  line-height: 14px;
+  margin: 0 0 12px 0;
+  padding: 5px;
+  text-align: center;
+  text-transform: uppercase;
+  width: 66px;
+}
+
+.card__content--narrow .card__target {
+  margin: 0 0 8px 0;
+}
+
+.card__title {
+  font-size: 24px;
+  line-height: 30px;
+  font-weight: 700;
+  margin: 0 0 12px 0;
+}
+
+.card__offers--debit .card__title {
+  color: #FFFFFF;
+}
+
+.card__content--narrow .card__title {
+  font-size: 20px;
+  line-height: 24px;
+  margin: 0 0 8px 0;
+  text-align: center;
+}
+
+.card__purpose {
+  font-size: 15px;
+  line-height: 22px;
+  margin: 0 0 66px 0;
+}
+
+.card__content--narrow .card__purpose {
+  font-size: 14px;
+  line-height: 16px;
+  text-align: center;
+  margin: 0 0 20px 0;
+}
+
+.card__content--narrow .card__img {
+  margin: 0 0 25px 0;
+}
+
+.card__offers--debit .card__purpose {
+  color: #FFFFFF;
+}
+
+.card__details {
+  padding: 10px 30px;
+  color: #FFFFFF;
+  font-size: 14px;
+  line-height: 20px;
+  text-decoration: none;
+  background-color: #476BF0;
+  border-radius: 8px;
+  text-align: center;
+  width: 140px;
+  margin-top: auto;
+}
+
+.card__offers--debit .card__details {
+  background-color: #FFFFFF;
+  color: #476BF0;
+}
