@@ -49,7 +49,11 @@
 }
 
 .product-item__text-block {
-    background: linear-gradient(90deg, rgba(38, 170, 154, 0.2) 0%, rgba(38, 170, 154, 0.6) 100%);
+    background: linear-gradient(
+        90deg,
+        rgba(38, 170, 154, 0.2) 0%,
+        rgba(38, 170, 154, 0.6) 100%
+    );
     border-radius: 12px;
     padding: 30px 40px;
 }
@@ -141,5 +145,5 @@
     font-weight: 400;
     font-size: 14px;
     line-height: 20px;
-    color: #FFFFFF80;
+    color: #ffffff80;
 }
