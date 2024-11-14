@@ -1,0 +1,21 @@
+.bottom-content {
+  display: grid;
+  grid-template-columns: repeat(2, auto);
+  gap: 10px 52px;
+  justify-content: end;
+}
+
+.bottom-content--box {
+  grid-column: 1/4;
+}
+
+.bottom-content__item {
+  display: grid;
+  grid-template-columns: repeat(3, auto);
+  gap: 40px;
+  padding: 2px 0 0;
+}
+
+.bottom-content__item--xl {
+  grid-column: 1/2;
+}

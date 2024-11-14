@@ -1,0 +1,75 @@
+body {
+  font-family: "Jost", "Arial", sans-serif;
+  font-size: 16px;
+  line-height: 24px;
+  color: #d4d4d4;
+}
+
+.text-block h1 {
+  font-family: Forum;
+  font-weight: 400;
+  font-size: 40px;
+  line-height: 44px;
+  text-align: center;
+  color: #a99e96;
+}
+
+figcaption {
+  font-size: 14px;
+  line-height: 18px;
+  text-align: right;
+  color: rgba(212, 212, 212, 0.6);
+}
+
+a {
+  font-weight: 500;
+  color: #c99374;
+}
+
+blockquote {
+  border-radius: 120px;
+  background: linear-gradient(
+    90deg,
+    rgba(76, 119, 170, 0.8) 0%,
+    rgba(52, 86, 160, 0.8) 100%
+  );
+  text-align: center;
+}
+
+q {
+  quotes: none;
+  font-style: italic;
+  letter-spacing: 0.08em;
+  color: #a99e96;
+}
+
+.text-block h2 {
+  font-family: Forum;
+  font-weight: 400;
+  font-size: 32px;
+  line-height: 34px;
+  text-align: center;
+  color: #a99e96;
+}
+
+.text-block q {
+  font-style: italic;
+}
+
+.text-block h3 {
+  font-family: Forum;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 28px;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: #a99e96;
+}
+
+table th {
+  letter-spacing: 0.08em;
+  font-weight: 400;
+  text-transform: uppercase;
+  text-align: left;
+  color: #a99e96;
+}

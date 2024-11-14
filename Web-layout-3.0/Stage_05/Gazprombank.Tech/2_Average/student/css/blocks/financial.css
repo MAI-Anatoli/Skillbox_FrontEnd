@@ -1,0 +1,109 @@
+.financial__wrapper {
+  display: grid;
+  grid-template-columns: 400px 1fr;
+  gap: 0 128px;
+  padding: 60px 0 0 0;
+}
+
+.financial__wrapper-left {
+  grid-column: 1/2;
+  display: grid;
+}
+
+.financial__titles {
+  width: 400px;
+  margin: 0 0 48px;
+}
+
+.financial__title {
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 36px;
+  margin: 0 0 24px;
+}
+
+.financial__text {
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 24px;
+  margin: 0;
+}
+
+.financial__card {
+  grid-column: 2/3;
+  grid-row: 1/5;
+}
+
+.financial__list {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+  display: grid;
+  grid-template-columns: repeat(2, 340px);
+  gap: 40px 32px;
+}
+
+.financial__item {
+  display: flex;
+  flex-direction: column;
+  width: 340px;
+}
+
+.financial__item--xxl {
+  grid-column: span 2;
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  background-color: #F4F6FA;
+  border-radius: 16px 16px 16px 16px;
+}
+
+.financial__img {
+  border-radius: 16px;
+  margin: 0 0 16px;
+}
+
+.financial__item--xxl .financial__img {
+  border-radius: 16px 0 0 16px;
+  margin: 0;
+}
+
+.financial__item--xxl .financial__content {
+  padding: 16px 32px;
+}
+
+.financial__meta {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  font-weight: 500;
+  font-size: 13px;
+  line-height: 16px;
+  margin: 0 0 16px;
+}
+
+.financial__meta-views {
+  display: flex;
+  justify-content: center;
+  gap: 4px;
+}
+
+.financial__meta-time {
+  display: flex;
+  justify-content: center;
+  gap: 6px;
+}
+
+.financial__item-title {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 24px;
+  margin: 0 0 8px;
+}
+
+.financial__description {
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 20px;
+  margin: 0;
+}

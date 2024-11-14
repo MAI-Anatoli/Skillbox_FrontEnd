@@ -1,0 +1,90 @@
+.card {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 40px 32px;
+}
+
+.card-info {
+    background-image: url("../../images/pensioners.jpg");
+    background-color: #1D43AC;
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 286px;
+    min-height: 480px;
+    border-radius: 12px;
+    padding: 20px 20px 32px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.card-info--rating {
+    background-image: url("../../images/rating.jpg");
+}
+
+.card-info--gold {
+    background-image: url("../../images/gold.jpg");
+}
+
+.card-info--tax {
+    background-image: url("../../images/tax.jpg");
+}
+
+.card-info--transfer {
+    background-image: url("../../images/transfer.jpg");
+}
+
+.card-info--dismissal {
+    background-image: url("../../images/dismissal.jpg");
+}
+
+.card-info--balance {
+    background-image: url("../../images/balance.jpg");
+}
+
+.card-info--credit {
+    background-image: url("../../images/credit.jpg");
+}
+
+.card-info__header {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 8px;
+    margin-bottom: 200px;
+}
+
+.card-info__text {
+    font-size: 13px;
+    line-height: 16px;
+    font-weight: 700;
+    color: #fff;
+    margin: 0;
+}
+
+.card-info__lower {
+    display: flex;
+    flex-direction: column;
+}
+
+.card-info__title {
+    font-size: 20px;
+    line-height: 24px;
+    font-weight: 700;
+    margin: 0 0 20px;
+    color: #fff;
+}
+
+.card-info__link {
+    font-size: 14px;
+    line-height: 20px;
+    font-weight: 500;
+    text-align: center;
+    text-decoration: none;
+    color: #fff;
+    margin: 0;
+    padding: 14px;
+    border-radius: 8px;
+    background-color: #476BF0;
+
+}

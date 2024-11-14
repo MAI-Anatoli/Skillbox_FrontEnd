@@ -1,0 +1,81 @@
+.insurance-company {
+  grid-column: 1/3;
+  width: 1120px;
+  border-radius: 20px;
+  background-color: #fff;
+  padding: 20px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin: 0 0 50px;
+}
+
+.insurance-company__content {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.insurance-company__card {
+  padding: 23px 20px;
+  border-radius: 20px;
+  background-color: #F6EEFB;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  width: 533px;
+  height: 90px;
+}
+
+.insurance-company__subtitle {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 20px;
+  margin: 0 0 5px;
+
+}
+
+.insurance-company__text {
+  font-weight: 400;
+  font-size: 13px;
+  line-height: 16px;
+  color: rgba(36, 36, 36, 0.5);
+  margin: 0;
+}
+
+.insurance-company__link {
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 24px;
+  color: #fff;
+  padding: 16px;
+  width: 1080px;
+  background-color: #9E5FC4;
+  border-radius: 60px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 12px;
+}
+
+.insurance-company__contacts {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.insurance-company__contact {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 20px;
+  margin: 0;
+}
+
+.insurance-company__phones {
+  font-weight: 400;
+  font-size: 13px;
+  line-height: 16px;
+  color: rgba(36, 36, 36, 0.5);
+  margin: 0;
+}

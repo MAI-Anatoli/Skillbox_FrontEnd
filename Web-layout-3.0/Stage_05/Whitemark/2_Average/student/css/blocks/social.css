@@ -1,0 +1,15 @@
+.social {
+  grid-column: 1/4;
+  grid-row: 3/4;
+  margin: 0 0 45px;
+}
+
+.social__list {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+  display: flex;
+  gap: 72px;
+  width: 400px;
+  margin: 0 auto;
+}

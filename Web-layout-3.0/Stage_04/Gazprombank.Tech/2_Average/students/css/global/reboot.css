@@ -1,0 +1,26 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #FFFFFF;
+  display: flex;
+  flex-direction: column;
+  font-family: "Noto Sans", "Arial", sans-serif;
+  margin: 0;
+  min-height: 100vh;
+  min-width: 1280px;
+  padding: 0;
+  color: #1E222E;
+}
+
+main {
+  flex-grow: 1;
+}
+
+img {
+  display: block;
+  height: auto;
+  max-width: 100%;
+  object-fit: cover;
+}

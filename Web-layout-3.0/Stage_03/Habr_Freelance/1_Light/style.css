@@ -1,0 +1,67 @@
+body {
+  font-family: "Tenor Sans", "Arial", sans-serif;
+  
+}
+
+.info-card {
+  border: 1px solid #e3e3e3;
+  border-radius: 20px;
+  background: #f5f5f5;
+  padding: 40px;
+}
+
+.info-card__place {
+  display: block;
+  font-size: 15px;
+  height: 20px;
+  color: #c21717;
+  margin: 0 0 10px 0;
+}
+
+.info-card__title {
+  font-size: 24px;
+  line-height: 28px;
+  color: #242424;
+ font-weight: 400;
+  margin: 0 0 20px 0;
+}
+
+.info-card__text {
+  font-size: 15px;
+line-height: 147%;
+color: rgba(36, 36, 36, 0.5);
+  margin: 0 0 68px 0;
+}
+
+.info-card__link {
+  display: block;
+  font-size: 15px;
+  line-height: 20px;
+  color: #fff;
+  padding: 18px;
+ text-align: center;
+  border-radius: 60px;
+  background: #c21717;
+  margin: 0 auto;
+}
+
+.info-card--accent {
+  background: #c72929;
+}
+
+.info-card--accent .info-card__place{
+  color: #fff;
+}
+
+.info-card--accent .info-card__title{
+  color: #fff;
+}
+
+.info-card--accent .info-card__text {
+  color: rgba(255, 255, 255, 0.6);
+}
+
+.info-card--accent .info-card__link {
+  background: #fff;
+  color: #c21717;
+}

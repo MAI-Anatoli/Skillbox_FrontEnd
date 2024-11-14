@@ -1,0 +1,42 @@
+.advantages {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 auto;
+    gap: 30px;
+    padding: 0;
+    width: 992px;
+    border-left: 1px solid rgba(29, 37, 45, 0.3);
+    border-right: 1px solid rgba(29, 37, 45, 0.3);
+}
+
+.advantages__item {
+    display: flex;
+    width: 310px;
+    flex-direction: column;
+    padding: 0 67px 10px;
+    justify-content: center;
+}
+
+.advantages__number {
+    color: rgb(29, 37, 45);
+    font-size: 54px;
+    font-weight: 200;
+    line-height: 60px;
+    text-align: center;
+}
+
+.advantages__text {
+    color: rgb(29, 37, 45);
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 20px;
+    text-align: center;
+
+}
+
+
+.advantages__item--accent.advantages__item {
+    border-radius: 0px 60px 0px 60px;
+    background: rgb(242, 243, 238);
+    padding: 20px 60px;
+}

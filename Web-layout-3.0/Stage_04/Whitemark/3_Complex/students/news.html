@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="css/style.css">
+  <title>Информационные материалы - Sminex - ИНТЕКО</title>
+</head>
+
+<body>
+  <header class="header">
+    <div class="container">
+      <div class="header__content">
+        <button class="header__menu">
+          <span class="header__menu-line"></span>
+        </button>
+        <a class="header__logo-link" href="news.html">
+          <img class="header__logo" src="images/icon-header-logo.svg" height="27" width="250"
+            alt="Логотип компании Sminex - ИНТЕКО">
+        </a>
+      </div>
+    </div>
+  </header>
+  <main>
+    <div class="page-content">
+      <div class="container">
+        <h1 class="page-content__title">Информационные материалы</h1>
+        <!-- TODO: Блок с переключением сетки. Необходимо раскомментировать -->
+
+
+        <div class="page-content__switch">
+          <button class="page-content__toggle">
+            <svg class="page-content__icon" width="24" height="16" viewBox="0 0 24 16" fill="none"
+              xmlns="http://www.w3.org/2000/svg">
+              <path d="M24 15H-8.9407e-07" />
+              <path d="M24 1H0" />
+              <path d="M24 8H-8.9407e-07" />
+            </svg>
+            <span class="page-content__toggle-text">Списком</span>
+          </button>
+          <button class="page-content__toggle page-content__toggle--current">
+            <svg class="page-content__icon" width="24" height="24" viewBox="0 0 24 24" fill="none"
+              xmlns="http://www.w3.org/2000/svg">
+              <rect x="0.5" y="0.5" width="10" height="10" />
+              <rect x="0.5" y="13.5" width="10" height="10" />
+              <rect x="13.5" y="0.5" width="10" height="10" />
+              <rect x="13.5" y="13.5" width="10" height="10" />
+            </svg>
+            <span class="page-content__toggle-text">Плиткой</span>
+          </button>
+        </div>
+
+        <!--!Плиткой  -->
+        <div class="card-content">
+          <div class="card">
+            <div class="card__info">
+              <img class="card__img" src="images/img-1.jpg" height="300" width="600" alt="Изображение">
+              <div class="card__description">
+                <span class="card__date">29 августа</span>
+                <h2 class="card__title">Эксперты Sminex назвали самые редкие решения для клубных домов</h2>
+                <p class="card__text">Аналитики Sminex изучили наполнение находящихся в&nbsp;продаже 19&nbsp;элитных
+                  домов,
+                  в&nbsp;которых
+                  до&nbsp;45&nbsp;квартир. Среди самых редких решений&nbsp;&mdash; вид из&nbsp;всех квартир
+                  на&nbsp;двор-сад,
+                  воркаут-зона, фонтаны, шумоизоляция стен и&nbsp;наличие концепции комьюнити.</p>
+                <div class="card__button">
+                  <span class="card__number">378 просмотров</span>
+                  <a class="card__link" href="#">Подробнее</a>
+                </div>
+              </div>
+            </div>
+            <div class="card__info">
+              <img class="card__img" src="images/DSC1139.jpg" height="300" width="600" alt="Изображение">
+              <div class="card__description">
+                <span class="card__date">2 июля</span>
+                <h2 class="card__title">Циан.Журнал: выбираем премиальный офис в&nbsp;деловом районе</h2>
+                <p class="card__text">Раз&nbsp;&mdash; топовая локация. Два&nbsp;&mdash; wow-архитектура.
+                  Три&nbsp;&mdash;
+                  технологичность. Редакция Циан.
+                  Журнала рассказала, какие офисы выбирают инвесторы в&nbsp;2023 году.</p>
+                <div class="card__button">
+                  <span class="card__number">547 просмотров</span>
+                  <a class="card__link" href="#">Подробнее</a>
+                </div>
+              </div>
+            </div>
+          </div>
+ <!--!Плиткой -->
+<!--?Списком-->
+          <div class=" card card--list">
+            <div class="card__info card__info--list">
+              <img class="card__img" src="images/img-1.jpg" height="300" width="600" alt="Изображение">
+              <div class="card__description card__description--list">
+                <span class="card__date">29 августа</span>
+                <h2 class="card__title">Эксперты Sminex назвали самые редкие решения для клубных домов</h2>
+                <p class="card__text">Аналитики Sminex изучили наполнение находящихся в&nbsp;продаже 19&nbsp;элитных
+                  домов,
+                  в&nbsp;которых
+                  до&nbsp;45&nbsp;квартир. Среди самых редких решений&nbsp;&mdash; вид из&nbsp;всех квартир
+                  на&nbsp;двор-сад,
+                  воркаут-зона, фонтаны, шумоизоляция стен и&nbsp;наличие концепции комьюнити.</p>
+                <div class="card__button">
+                  <span class="card__number">378 просмотров</span>
+                  <a class="card__link" href="#">Подробнее</a>
+                </div>
+              </div>
+            </div>
+            <div class="card__info card__info--list">
+              <img class="card__img" src="images/DSC1139.jpg" height="300" width="600" alt="Изображение">
+              <div class="card__description card__description--list">
+                <span class="card__date">2 июля</span>
+                <h2 class="card__title">Циан.Журнал: выбираем премиальный офис в&nbsp;деловом районе</h2>
+                <p class="card__text">Раз&nbsp;&mdash; топовая локация. Два&nbsp;&mdash; wow-архитектура.
+                  Три&nbsp;&mdash;
+                  технологичность. Редакция Циан.
+                  Журнала рассказала, какие офисы выбирают инвесторы в&nbsp;2023 году.</p>
+                <div class="card__button">
+                  <span class="card__number">547 просмотров</span>
+                  <a class="card__link" href="#">Подробнее</a>
+                </div>
+              </div>
+            </div>
+          </div>
+    <!--?Списком -->
+        </div>
+      </div>
+    </div>
+  </main>
+  <footer class="footer">
+    <div class="container">
+      <div class="footer__content">
+        <a class="footer__logo-link" href="news.html">
+          <img class="footer__logo" src="images/icon-footer-logo.svg" height="28" width="191"
+            alt="Логотип компании Sminex">
+        </a>
+        <div class="footer__nav">
+          <ul class="footer__nav-list">
+            <li class="footer__nav-item">
+              <a class="footer__nav-link" href="#">Коротко о нас</a>
+            </li>
+            <li class="footer__nav-item">
+              <a class="footer__nav-link" href="#">Создаем уникальные проекты</a>
+            </li>
+            <li class="footer__nav-item">
+              <a class="footer__nav-link" href="#">Служба комфорта</a>
+            </li>
+          </ul>
+          <ul class="footer__nav-list">
+            <li class="footer__nav-item">
+              <a class="footer__nav-link" href="#">Работодатель №1</a>
+            </li>
+            <li class="footer__nav-item">
+              <a class="footer__nav-link" href="#">Информационный центр</a>
+            </li>
+            <li class="footer__nav-item">
+              <a class="footer__nav-link" href="#">Sminex Club</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </footer>
+</body>
+
+</html>

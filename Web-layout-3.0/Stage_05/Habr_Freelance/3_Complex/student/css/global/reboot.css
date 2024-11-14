@@ -1,0 +1,23 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Exo-2", "Arial", sans-serif;
+  color: #242424;
+  margin: 0;
+  padding: 0;
+  background-color: #f4f4f5;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+  object-fit: cover;
+  height: auto;
+}
+
+a {
+  color: #242424;
+  text-decoration: none;
+}

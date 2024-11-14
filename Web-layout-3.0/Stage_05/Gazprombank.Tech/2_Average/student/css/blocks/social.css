@@ -1,0 +1,38 @@
+.social {
+  display: flex;
+  flex-direction: column;
+  margin: 0 0 24px;
+}
+
+.social__text {
+  font-weight: 400;
+  font-size: 13px;
+  line-height: 16px;
+  color: #696E82;
+  margin: 0 0 12px;
+}
+
+.social__list {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  width: 232px;
+}
+
+.social__item {
+  display: flex;
+}
+
+.social__link {
+  display: flex;
+  width: 40px;
+  height: 40px;
+  background-color: #EDEEEF;
+  border-radius: 50px;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}

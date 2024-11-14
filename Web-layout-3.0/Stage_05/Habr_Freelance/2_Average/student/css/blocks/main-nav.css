@@ -1,0 +1,23 @@
+.main-nav {
+  display: flex;
+  padding: 11px 0;
+}
+
+.main-nav__list {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+  display: flex;
+  gap: 29px;
+}
+
+.main-nav__item {
+  display: flex;
+}
+
+.main-nav__link {
+  color: #fff;
+  font-size: 15px;
+  font-weight: 500;
+  line-height: 20px;
+}

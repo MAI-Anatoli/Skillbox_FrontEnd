@@ -1,0 +1,41 @@
+.footer {
+  background-color: #212226;
+  padding: 20px 0 31px;
+}
+
+.footer__content {
+  display: grid;
+  grid-template-columns: auto 1fr auto;
+  gap: 20px 40px;
+}
+
+.footer__info {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+}
+
+.footer__info--net {
+  grid-column: 2/3;
+}
+
+.footer__info-tel {
+  color: #ffffff;
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 28px;
+  letter-spacing: -0.02em;
+}
+
+.footer__info-description {
+  color: rgba(255, 255, 255, 0.50);
+  font-size: 13px;
+  line-height: 16px;
+  margin: 0;
+}
+
+.footer-line {
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  grid-column: 1/4;
+  grid-row: 2/3;
+}

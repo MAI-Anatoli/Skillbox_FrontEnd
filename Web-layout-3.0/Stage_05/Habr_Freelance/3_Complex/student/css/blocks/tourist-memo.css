@@ -1,0 +1,57 @@
+.tourist-memo {
+  display: flex;
+  justify-content: space-between;
+  gap: 20px;
+  margin: 0 0 60px;
+}
+
+.tourist-memo__block-right {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.tourist-memo__content {
+  width: 650px;
+}
+
+.tourist-memo__title {
+  font-weight: 600;
+  font-size: 28px;
+  line-height: 32px;
+  margin: 0 0 20px;
+}
+
+.tourist-memo__description {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 20px;
+  margin: 0 0 20px;
+}
+
+.tourist-memo__text {
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 20px;
+  margin: 0 0 20px;
+}
+
+.tourist-memo__standard {
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 24px;
+  color: #000000;
+  margin: 0 0 10px;
+}
+
+.tourist-memo__list {
+  margin: 0;
+  padding: 0 0 0 14px;
+}
+
+.tourist-memo__paragraph {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 20px;
+  margin: 0 0 10px;
+}

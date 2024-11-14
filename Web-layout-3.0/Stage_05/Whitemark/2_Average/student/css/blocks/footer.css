@@ -1,0 +1,72 @@
+.footer {
+  background-color: rgba(35, 37, 46, 1);
+  margin-top: auto;
+}
+
+.footer__content {
+  padding: 40px 0 28px;
+  display: grid;
+  grid-template-columns: 1fr auto 1fr;
+}
+
+.footer__selling {
+  display: flex;
+  flex-direction: column;
+}
+
+.footer__text {
+  font-weight: 400;
+  font-size: 13px;
+  line-height: 16px;
+  color: rgba(255, 255, 255, 0.4);
+  margin: 0 0 12px;
+}
+
+.footer__location {
+  width: 280px;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 20px;
+  color: #fff;
+  margin: 0;
+}
+
+.footer__home-link {
+  margin: 0 0 8px;
+}
+
+.footer__phone {
+  font-family: Foros;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 24px;
+  text-align: right;
+  color: #fff;
+
+}
+
+.footer__url {
+  grid-column: 1 / 4;
+  grid-row: 2 / 3;
+  display: flex;
+  gap: 20px;
+  justify-content: space-between;
+  margin: 0 0 16px;
+}
+
+.footer__map {
+  font-weight: 400;
+  font-size: 13px;
+  line-height: 16px;
+  color: #fff;
+
+}
+
+.footer__email {
+  font-weight: 400;
+  font-size: 13px;
+  line-height: 16px;
+  text-align: right;
+  color: #fff;
+
+}

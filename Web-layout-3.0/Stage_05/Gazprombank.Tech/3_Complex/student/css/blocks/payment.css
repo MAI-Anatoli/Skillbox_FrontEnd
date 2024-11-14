@@ -1,0 +1,48 @@
+.payment__wrapper {
+  margin: 0 0 100px;
+}
+
+.payment__title {
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 36px;
+  margin: 0 0 40px;
+  text-align: center;
+}
+
+.payment__list {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 40px;
+}
+
+.payment__item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 280px;
+}
+
+.payment__icon {
+  margin: 0 0 20px;
+}
+
+.payment__item-title {
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 28px;
+  text-align: center;
+  margin: 0 0 12px;
+}
+
+.payment__text {
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 20px;
+  text-align: center;
+  color: #696E82;
+  margin: 0;
+}

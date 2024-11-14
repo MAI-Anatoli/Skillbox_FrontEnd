@@ -1,0 +1,41 @@
+body {
+  font-family: "Noto Sans", "Arial", sans-serif;
+}
+
+h1 {
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 46px;
+  text-align: center;
+}
+
+h2 {
+  font-size: 32px;
+  font-weight: 700;
+  line-height: 38px;
+}
+
+h3 {
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 30px;
+}
+
+p {
+  font-size: 15px;
+  line-height: 22px;
+}
+
+figcaption {
+  color: rgba(30, 34, 46, 0.5);
+  font-size: 12px;
+  line-height: 16px;
+  letter-spacing: 4%;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+a {
+  color: rgba(66, 92, 211, 1);
+  font-weight: 500;
+}

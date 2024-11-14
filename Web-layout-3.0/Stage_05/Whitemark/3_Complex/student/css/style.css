@@ -1,0 +1,18 @@
+/* Global */
+/* ------------------------------------ */
+@import "global/fonts.css";
+@import "global/reboot.css";
+@import "global/container.css";
+@import "global/visually-hidden.css";
+
+/* Blocks */
+/* ------------------------------------ */
+@import "blocks/hero.css";
+@import "blocks/apartments.css";
+@import "blocks/benefit.css";
+@import "blocks/footer.css";
+@import "blocks/socials.css";
+@import "blocks/header.css";
+@import "blocks/btn.css";
+@import "blocks/beauty.css";
+@import "blocks/advantages.css";

@@ -1,0 +1,98 @@
+.header {
+  border-top: 15px solid #52a345;
+  padding: 15px 0 30px;
+}
+
+.header__top {
+  display: grid;
+  grid-template-columns: 1fr 386px 1fr;
+  gap: 20px;
+  margin: 0 0 41px 0;
+}
+
+.header__contacts {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  align-items: flex-start;
+}
+
+.header__phone {
+  display: flex;
+  align-items: center;
+  gap: 4px;
+  border: 1px solid #475009;
+  border-radius: 60px;
+  padding: 6px 12px;
+}
+
+.header__phone-text {
+  font-size: 14px;
+  line-height: 20px;
+  font-weight: 500;
+}
+
+.header__callback {
+  font-size: 14px;
+  line-height: 18px;
+  font-weight: 600;
+  letter-spacing: 0.06em;
+  color: #475009;
+  background-color: transparent;
+  border: none;
+  font-family: "Montserrat", "Arial", sans-serif;
+  text-decoration: underline;
+  padding: 0;
+}
+
+.header__users {
+  display: flex;
+  align-items: center;
+  gap: 25px;
+  justify-content: flex-end;
+}
+
+.header__user-list {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+
+.header__user-link {
+  display: flex;
+  align-items: center;
+}
+
+.header__user-text {
+  margin: 0 0 0 10px;
+  font-size: 14px;
+  line-height: 20px;
+  font-weight: 600;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+}
+
+.header__user-count {
+  height: 17px;
+  width: 17px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #52a345;
+  font-size: 10px;
+  line-height: 10px;
+  font-weight: 600;
+  color: #ffffff;
+}
+
+.header__burger {
+  display: flex;
+  align-items: center;
+  background-color: transparent;
+  border: none;
+  padding: 0;
+}

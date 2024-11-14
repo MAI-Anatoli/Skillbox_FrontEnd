@@ -1,0 +1,47 @@
+body {
+  font-family: "Jost", "Arial", sans-serif;
+  color: rgb(212, 212, 212);
+  font-family: Jost;
+  font-size: 16px;
+  line-height: 24px;
+}
+
+h1 {
+  color: rgb(169, 158, 150);
+  font-size: 40px;
+  font-weight: 300;
+  line-height: 44px;
+  text-align: center;
+}
+
+figcaption {
+  color: rgba(212, 212, 212, 0.6);
+  font-size: 14px;
+  line-height: 18px;
+  text-align: right;
+}
+
+h2 {
+  color: rgb(169, 158, 150);
+  font-size: 32px;
+  font-weight: 300;
+  line-height: 34px;
+}
+
+a {
+  font-weight: 500;
+  color: #c99374;
+}
+
+b {
+  font-weight: 600;
+}
+
+h3 {
+  color: rgb(169, 158, 150);
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 28px;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+}

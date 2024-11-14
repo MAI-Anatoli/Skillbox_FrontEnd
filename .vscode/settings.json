@@ -1,0 +1,14 @@
+{
+  "editor.fontSize": 18,
+  "files.autoSave": "afterDelay",
+  "notebook.find.filters": {
+
+    "markupSource": true,
+    "markupPreview": true,
+    "codeSource": true,
+    "codeOutput": true
+  },
+  "workbench.editor.enablePreview": false,
+  "workbench.editor.enablePreviewFromQuickOpen": false,
+  "liveServer.settings.port": 5501,
+}

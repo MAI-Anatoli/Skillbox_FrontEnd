@@ -1,0 +1,27 @@
+.language {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.language--grid {
+  grid-column: 1/2;
+}
+
+.language__pages {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 4px;
+  background-color: rgba(51, 52, 56, 1);
+  width: 54px;
+  height: 40px;
+}
+
+.language__text {
+  font-size: 15px;
+  font-weight: 500;
+  line-height: 20px;
+  color: rgba(255, 255, 255, 0.5);
+  margin: 0;
+}

@@ -1,0 +1,13 @@
+/* Global */
+/* --------------------------------------- */
+@import "global/fonts.css";
+@import "global/reboot.css";
+@import "global/container.css";
+
+/* Blocks */
+/* --------------------------------------- */
+@import "blocks/header.css";
+@import "blocks/breadcrumbs.css";
+@import "blocks/page-content.css";
+@import "blocks/card.css";
+@import "blocks/footer.css";

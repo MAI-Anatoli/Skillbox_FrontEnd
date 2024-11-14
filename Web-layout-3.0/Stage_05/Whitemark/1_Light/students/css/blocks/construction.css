@@ -1,0 +1,132 @@
+.construction__wrapper {
+  display: flex;
+}
+
+.construction__list {
+  margin: 0;
+  padding: 40px 40px 40px 0;
+  list-style-type: none;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(1fr, auto));
+  gap: 30px;
+}
+
+.construction__item--1 {
+  grid-column: 1/3;
+  width: 380px;
+}
+
+.construction__item--2 {
+  grid-column: 3/5;
+  width: 350px;
+}
+
+.construction__item--3 {
+  grid-column: 1/2;
+  grid-row: 2/3;
+  width: 160px;
+}
+
+.construction__item--4 {
+  grid-column: 2/3;
+  grid-row: 2/4;
+  width: 190px;
+}
+
+.construction__item--5 {
+  grid-column: 3/4;
+  grid-row: 2/3;
+  empty-cells: 160px;
+}
+
+.construction__item--6 {
+  grid-column: 4/5;
+  grid-row: 2/3;
+  width: 160px;
+}
+
+.construction__item--7 {
+  grid-column: 1/2;
+  grid-row: 3/4;
+  width: 160px;
+}
+
+.construction__item--8 {
+  grid-column: 3/5;
+  grid-row: 3/4;
+  width: 350px;
+}
+
+.construction__description {
+  padding: 40px 0 40px 100px;
+  width: 540px;
+  border-left: 1px solid rgba(5, 57, 71, 1);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border-left: 1px solid rgba(5, 57, 71, 1)
+}
+
+.construction__description-link {
+  display: flex;
+  margin: 0 0 20px;
+  gap: 8px;
+}
+
+.construction__description-back {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 16px;
+  color: rgba(255, 255, 255, 1);
+  margin: 0;
+}
+
+.construction__description-title {
+  font-family: Fira Sans Extra Condensed;
+  font-weight: 400;
+  font-size: 40px;
+  line-height: 44px;
+  text-transform: uppercase;
+  letter-spacing: 0.02em;
+  color: rgba(255, 255, 255, 1);
+  margin: 0 0 20px;
+}
+
+.construction__description-list {
+  margin: 0 0 81px;
+  padding: 0;
+}
+
+.construction__description-text {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 20px;
+  color: rgba(255, 255, 255, 1);
+  margin: 0 0 16px;
+}
+
+.construction__description-navigation {
+  display: flex;
+  gap: 40px;
+
+}
+
+.construction__description-previous {
+  display: flex;
+  gap: 10px;
+}
+
+.construction__description-month {
+  width: 100px;
+  margin: 0;
+  color: rgba(182, 142, 108, 1);
+}
+
+.construction__description-next {
+  display: flex;
+  gap: 10px;
+}
+
+.construction__description-month--right {
+  text-align: right;
+}

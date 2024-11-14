@@ -1,0 +1,27 @@
+.buying-payment {
+  grid-column: 2/3;
+  width: 290px;
+  height: 179px;
+  border: 1px solid #E1E1E4;
+  border-radius: 20px;
+  display: flex;
+  flex-direction: column;
+  padding: 25px;
+  gap: 15px;
+}
+
+.buying-payment__list {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.buying-payment__title {
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 24px;
+  margin: 0;
+}

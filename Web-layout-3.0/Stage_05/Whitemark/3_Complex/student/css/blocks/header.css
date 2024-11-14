@@ -1,0 +1,70 @@
+.header__content {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  align-items: center;
+  padding: 16px 0;
+}
+
+.header__logo {
+  grid-column: 2/3;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.header__left {
+  grid-column: 1/2;
+  display: flex;
+  gap: 142px;
+}
+
+.header__right {
+  grid-column: 3/4;
+  display: flex;
+  gap: 40px;
+  align-items: center;
+  justify-content: flex-end;
+}
+
+.header__project-link {
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 24px;
+  text-transform: uppercase;
+  color: #fff;
+}
+
+.header__choice {
+  display: flex;
+  gap: 20px;
+  align-items: center;
+}
+
+.header__language {
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 24px;
+  text-transform: uppercase;
+  color: #fff;
+}
+
+.header__apartment {
+  font-weight: 400;
+  font-size: 13px;
+  line-height: 16px;
+  color: #fff;
+  text-align: center;
+  padding: 10px;
+  width: 165px;
+  border-radius: 60px;
+  border: 2px solid #FFFFFF;
+  margin: 0 0 2px;
+}
+
+.header__tel {
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 24px;
+  color: #fff;
+  text-align: right;
+}

@@ -1,0 +1,144 @@
+.card-season__title {
+  font-size: 36px;
+  line-height: 40px;
+  font-weight: 700;
+  letter-spacing: -0.02em;
+  margin: 0 0 30px 0;
+}
+
+.card-season__list {
+  padding: 0;
+  list-style-type: none;
+  margin: 0 0 80px 0;
+  display: grid;
+  gap: 20px;
+  grid-template-columns: 1fr 1fr 380px;
+}
+
+.card-season__list-item {
+  display: flex;
+  flex-direction: column;
+  min-height: 332px;
+  padding: 20px 30px;
+  border-radius: 24px;
+}
+
+.card-season__list-item--wide {
+  grid-column: span 2;
+}
+
+.card-season__list-item--lavender {
+  background-color: #E0E5FA;
+  grid-row: 1/2;
+}
+
+.card-season__list-item--plateau {
+  background-color: #D2E8E5;
+  grid-row: 1/2;
+}
+
+.card-season__list-item--wizard {
+  background-color: #E0EFFA;
+  grid-row: 1/3;
+}
+
+.card-season__list-item--royalty {
+  background: linear-gradient(87.12deg,
+      #5839B0 1.65%, #4162B8 100%);
+  display: grid;
+  min-height: 160px;
+  gap: 40px;
+  padding: 30px 30px 20px 30px;
+  grid-template-columns: auto auto;
+  grid-row: 2/3;
+}
+
+.card-season__list-img {
+  border: 4px solid #9E5FC4;
+  border-radius: 200px;
+  margin: 0 auto 20px;
+}
+
+.card-season__list-subtitle {
+  font-size: 28px;
+  line-height: 32px;
+  letter-spacing: -0.02em;
+  text-align: center;
+  font-weight: 700;
+  color: #9E5FC4;
+  margin: 0;
+}
+
+.card-season__list-city {
+  font-size: 20px;
+  line-height: 24px;
+  letter-spacing: -0.02em;
+  text-align: center;
+  margin: 0 0 20px 0;
+}
+
+
+.card-season__list-description {
+  font-size: 16px;
+  line-height: 20px;
+  text-align: center;
+  margin: 0 0 20px 0;
+}
+
+.card-season__list-link {
+  font-size: 14px;
+  line-height: 18px;
+  font-weight: 500;
+  text-align: center;
+  color: #fff;
+  padding: 14px;
+  min-width: 154px;
+  background-color: #9E5FC4;
+  border-radius: 60px;
+  margin: auto auto 0 auto;
+}
+
+.card-season__review-img {
+  border-radius: 200px;
+  height: 100px;
+}
+
+.card-season__review-content {
+  display: flex;
+  flex-direction: column;
+}
+
+.card-season__review-text {
+  font-size: 20px;
+  line-height: 24px;
+  letter-spacing: -0.02em;
+  color: #fff;
+  margin: 0 0 20px 0;
+}
+
+.card-season__review-bottom {
+  display: grid;
+  grid-template-columns: auto 1fr;
+  gap: 15px;
+  align-items: center;
+  margin-top: auto;
+}
+
+.card-season__review-name {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 18px;
+  text-align: right;
+  color: #FFFFFF80;
+}
+
+.card-season__review-link {
+  display: grid;
+  grid-template-columns: auto 1fr;
+  gap: 5px;
+  align-items: center;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 18px;
+  color: #FFFFFF80;
+}

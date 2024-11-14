@@ -1,0 +1,27 @@
+/* Global */
+/* ------------------------------------ */
+@import "global/fonts.css";
+@import "global/reboot.css";
+@import "global/container.css";
+@import "global/visually-hidden.css";
+
+/* Blocks */
+/* ------------------------------------ */
+@import "blocks/header.css";
+@import "blocks/breadcrumbs.css";
+@import "blocks/footer.css";
+@import "blocks/btn.css";
+@import "blocks/social.css";
+@import "blocks/contacts.css";
+@import "blocks/company.css";
+@import "blocks/recreation.css";
+@import "blocks/payment.css";
+@import "blocks/store.css";
+@import "blocks/bottom-content.css";
+@import "blocks/language.css";
+@import "blocks/copyright.css";
+@import "blocks/tourist-memo.css";
+@import "blocks/buying-payment.css";
+@import "blocks/before.css";
+@import "blocks/consultation.css";
+@import "blocks/insurance-company.css";

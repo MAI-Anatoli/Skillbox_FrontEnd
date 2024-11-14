@@ -1,0 +1,20 @@
+/* Global */
+/* ------------------------------------ */
+@import "global/fonts.css";
+@import "global/reboot.css";
+@import "global/visually-hidden.css";
+@import "global/container.css";
+
+/* Blocks */
+/* ------------------------------------ */
+@import "blocks/footer.css";
+@import "blocks/social.css";
+@import "blocks/breadcrumbs.css";
+@import "blocks/header.css";
+@import "blocks/main-nav.css";
+@import "blocks/tura-gallery.css";
+@import "blocks/local-list.css";
+@import "blocks/btn.css";
+
+
+

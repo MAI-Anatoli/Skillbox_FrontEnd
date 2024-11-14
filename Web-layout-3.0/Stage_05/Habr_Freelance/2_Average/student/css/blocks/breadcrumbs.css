@@ -1,0 +1,39 @@
+.breadcrumbs {
+  padding: 15px 0 0;
+  margin: 0 0 30px 0;
+}
+
+.breadcrumbs__list {
+  display: flex;
+  gap: 24px;
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+
+.breadcrumbs__item {
+  position: relative;
+}
+
+.breadcrumbs__link {
+  display: block;
+  font-size: 14px;
+  line-height: 18px;
+  position: relative;
+}
+
+.breadcrumbs__link--active {
+  color: #a1a1a1;
+}
+
+.breadcrumbs__link:not(span)::after {
+  content: "";
+  width: 3px;
+  height: 3px;
+  background-color:  #a1a1a1;
+  border-radius: 50%;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  right: -14px;
+}

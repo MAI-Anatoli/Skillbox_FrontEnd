@@ -1,0 +1,62 @@
+body {
+  color: rgb(30, 34, 46);
+  font-family: "Noto Sans", "Arial", sans-serif;
+  font-size: 15px;
+  line-height: 22px;
+}
+
+h1 {
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 46px;
+  text-align: center;
+}
+
+h2 {
+  font-size: 32px;
+  font-weight: 700;
+  line-height: 38px;
+}
+
+blockquote {
+  border-radius: 12px;
+  background: linear-gradient(180.00deg, rgb(85, 167,       243),rgb(71, 100, 231) 100%);
+  color: rgb(255, 255, 255);
+}
+
+q {
+  color: rgb(66, 92, 211);
+  font-style: italic;
+  quotes: none;
+}
+
+figure {
+  background: url(https://i.ibb.co/4jwM7t4/Rectangle-1685.png);
+  color: rgba(30, 34, 46, 0.5);
+  font-size: 12px;
+  line-height: 16px;
+  letter-spacing: 4%;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+a {
+  color: rgb(66, 92, 211);
+  font-weight: 500;
+}
+
+table {
+  background: rgb(244, 246, 250);
+}
+
+table th {
+  color: rgb(108, 18, 90);
+  font-weight: 400;
+  letter-spacing: 4%;
+  text-align: left;
+  text-transform: uppercase;
+}
+
+table td {
+  color: rgb(66, 92, 211);
+}

@@ -1,0 +1,139 @@
+.card-tour {
+  padding: 0;
+  list-style-type: none;
+  display: grid;
+  grid-template-columns: repeat(3, auto);
+  margin: 0 0 60px 0;
+  gap: 20px;
+}
+.card-tour__item {
+  display: flex;
+  flex-direction: column;
+  min-height: 528px;
+  border-radius: 24px;
+  background-color: #ffffff;
+  overflow: hidden;
+  width: 380px;
+}
+
+.card-tour__item--xl {
+  grid-column: span 2;
+  width: 720px;
+}
+
+.card-tour__img {
+  height: 240px;
+  width: 100%;
+}
+
+.card-tour__content {
+  display: flex;
+  flex-direction: column;
+  padding: 18px 30px 30px 30px;
+  flex-grow: 1;
+}
+
+.card-tour__content-top {
+  display: grid;
+  grid-template-columns: auto 1fr;
+  gap: 9px;
+  margin: 0 0 10px;
+}
+
+.card-tour__item--xl .card-tour__content-top {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+
+}
+
+.card-tour__title {
+  font-size: 28px;
+  line-height: 32px;
+  letter-spacing: -0.02em;
+  margin: 0;
+  color: #9e5fc4;
+  font-weight: 700;
+}
+
+.card-tour__city {
+  color: #242424;
+}
+
+.card-tour__label {
+  display: grid;
+  grid-template-columns: 1fr auto;
+  gap: 5px;
+}
+
+.card-tour__label-info {
+  border-radius: 60px;
+  background-color: #f9efcd;
+  display: grid;
+  padding: 6px 10px;
+  align-items: center;
+  gap: 4px;
+  margin: 0 0 0 auto;
+  grid-template-columns: auto 1fr;
+}
+
+.card-tour__label-info--color {
+  background-color: #F2E5FA;
+}
+
+
+.card-tour__label-info svg {
+  width: 16px;
+  height: 16px;
+  flex-shrink: 0;
+}
+
+.card-tour__label-text {
+  font-size: 13px;
+  line-height: 16px;
+}
+
+.card-tour__text {
+  font-size: 16px;
+  line-height: 20px;
+  margin: 0 0 16px;
+}
+
+.card-tour__content-bottom {
+  margin: auto 0 0 0;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+.card-tour__price-wrapper {
+  display: grid;
+  gap: 6px;
+  margin: 0 0 30px 0;
+}
+
+.card-tour__item--xl .card-tour__price-wrapper {
+  margin: 0;
+}
+
+.card-tour__price {
+  display: grid;
+  align-items: center;
+  gap: 5px;
+  grid-template-columns: auto 1fr;
+}
+
+.card-tour__price svg {
+  width: 22px;
+  height: 20px;
+  flex-shrink: 0;
+}
+
+.card-tour__price-text {
+  font-size: 14px;
+  line-height: 18px;
+}
+
+.card-tour__btns-wrap {
+  display: grid;
+  gap: 13px;
+  grid-template-columns: auto 1fr;
+}

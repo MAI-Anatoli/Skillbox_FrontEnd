@@ -1,0 +1,13 @@
+.page-content {
+  padding: 40px 0 120px;
+}
+
+.page-content__title {
+  font-size: 60px;
+  line-height: 60px;
+  font-weight: 200;
+  max-width: 840px;
+  margin: 0 auto 60px;
+  text-align: center;
+  text-transform: uppercase;
+}

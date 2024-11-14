@@ -1,0 +1,71 @@
+.header {
+  padding: 24px 0;
+}
+
+.header__wrapper {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 50px;
+  justify-content: space-between;
+}
+
+.header__left {
+  display: flex;
+  gap: 26px;
+  align-items: center;
+}
+
+.header__menu {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 24px;
+  height: 24px;
+  padding: 0;
+  border: none;
+  background-color: transparent;
+}
+
+.header__link {
+  display: flex;
+  flex-shrink: 0;
+}
+
+.header__right {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 12px;
+}
+
+.header__signin {
+  margin: 0 20px 0 0;
+  max-width: 500px;
+  color: #1E222E;
+  font-size: 13px;
+  font-weight: 500;
+  line-height: 16px;
+}
+
+.header__download {
+  gap: 6px;
+  max-width: 500px;
+  padding: 10px 20px;
+}
+
+.header__download-icon {
+  flex-shrink: 0;
+}
+
+.header__burger {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+  width: 40px;
+  height: 40px;
+  padding: 0;
+  border: none;
+  border-radius: 8px;
+  background-color: #000000;
+}

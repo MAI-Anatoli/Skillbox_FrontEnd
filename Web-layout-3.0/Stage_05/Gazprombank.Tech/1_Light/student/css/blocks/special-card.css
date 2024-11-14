@@ -1,0 +1,90 @@
+.special-card {
+  display: flex;
+  flex-direction: column;
+  min-height: 280px;
+  padding: 20px 20px 0;
+  border-radius: 16px;
+  background: #F4F6FA;
+  position: relative;
+}
+
+.special-card--xl {
+  width: 280px;
+  background-color: #5E81FF;
+  grid-row: 1 / 3;
+}
+
+.special-card--xxxl {
+  grid-column: span 2;
+  grid-row: 2 / 3;
+  width: 620px;
+  position: relative;
+}
+
+.special-card__heading {
+  font-weight: 700;
+  font-size: 22px;
+  line-height: 28px;
+  margin: 10px 0 8px 10px;
+}
+
+.special-card--xl .special-card__heading {
+  color: #fff;
+}
+
+.special-card__text {
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 20px;
+  margin: 0 0 26px 10px;
+}
+
+.special-card--xl .special-card__text {
+  color: #fff;
+  margin: 0 0 12px 10px;
+}
+
+.special-card__list {
+  margin: 0 0 74px;
+  padding: 0 0 0 26px;
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  list-style: disc;
+}
+
+.special-card__item {
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 20px;
+  margin: 0;
+  color: #fff;
+}
+
+.special-card__bottom {
+  display: flex;
+  height: 120px;
+
+}
+
+.special-card__image {
+  width: 120px;
+  position: absolute;
+  left: 0;
+  bottom: 0;
+}
+
+.special-card__link {
+  width: 40px;
+  height: 40px;
+  padding: 10px;
+  border-radius: 8px;
+  background-color: #5E81FF;
+  position: absolute;
+  right: 30px;
+  bottom: 30px;
+}
+
+.special-card--xl .special-card__link {
+  background-color: #FF8516;
+}
