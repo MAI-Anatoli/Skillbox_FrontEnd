@@ -1,0 +1,23 @@
+.order-card {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  font-size: 18px;
+  line-height: 20px;
+  font-weight: 700;
+}
+
+.order-card__inner {
+  position: relative;
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+.order-card__price {
+  margin: 0 0 0 auto;
+}
+
+.order-card__price-old {
+  color: rgba(71, 80, 9, 0.3);
+  text-decoration: line-through;
+}
