@@ -1,0 +1,93 @@
+.header {
+  padding: 30px 0 0;
+  /* Фиксация шапки сайта */
+  position: fixed;
+  width: 100%;
+  background-color: #ffffff;
+  z-index: 10;
+  /* ---Фиксация шапки сайта---- */
+}
+
+.header__top {
+  align-items: center;
+  display: grid;
+  gap: 20px;
+  grid-template-columns: 1fr 320px 1fr;
+  margin: 0 0 20px 0;
+}
+
+.header__contacts {
+  align-items: flex-start;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.header__phone {
+  align-items: center;
+  border: 1px solid #475009;
+  border-radius: 60px;
+  display: flex;
+  font-size: 14px;
+  gap: 4px;
+  line-height: 20px;
+  padding: 6px 12px;
+}
+
+.header__callback {
+  background-color: transparent;
+  border: none;
+  color: #475009;
+  cursor: pointer;
+  font-family: "Exo-2", "Arial", sans-serif;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 18px;
+  padding: 0;
+  text-decoration: underline;
+}
+
+.header__users {
+  align-items: center;
+  display: flex;
+  justify-content: flex-end;
+  gap: 35px;
+}
+
+.header__user-list {
+  align-items: center;
+  display: flex;
+  gap: 25px;
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+.header__user-link {
+  align-items: center;
+  display: flex;
+  position: relative;
+}
+
+.header__user-count {
+  align-items: center;
+  background-color: #52A345;
+  border-radius: 50%;
+  color: #FFFFFF;
+  display: flex;
+  font-size: 10px;
+  font-weight: 600;
+  height: 17px;
+  justify-content: center;
+  line-height: 10px;
+  width: 17px;
+  position: absolute;
+  top: -5px;
+  right: -5px;
+}
+
+.header__burger {
+  background-color: transparent;
+  border: none;
+  padding: 0;
+}

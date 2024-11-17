@@ -1,0 +1,21 @@
+.btn {
+  background-color: #FFFFFF;
+  border: 2px solid #502198;
+  border-radius: 30px;
+  color: #502198;
+  cursor: pointer;
+  display: block;
+  font-family: "Exo-2", "Arial", sans-serif;
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 16px;
+  padding: 9px;
+  text-transform: uppercase;
+  width: 100%;
+}
+
+.btn--size-xl {
+  font-size: 18px;
+  line-height: 18px;
+  padding: 16px;
+}
