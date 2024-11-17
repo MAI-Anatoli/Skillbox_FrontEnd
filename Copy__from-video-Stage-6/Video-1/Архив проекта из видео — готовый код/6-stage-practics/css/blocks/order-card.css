@@ -14,16 +14,25 @@
 }
 
 .order-card__sale {
-  font-weight: 700;
-  font-size: 10px;
-  line-height: 10px;
-  color: #ffffff;
-  padding: 2px 7px;
-  background-color: #475009;
-  border-radius: 5px;
   position: absolute;
   top: 5px;
   left: 5px;
+  background-color: #475009;
+  border-radius: 5px;
+  color: #FFFFFF;
+  font-size: 10px;
+  line-height: 10px;
+  padding: 2px 7px;
+  font-weight: 700;
+}
+
+.order-card__name:hover {
+  color: rgba(71, 80, 9, 0.7);
+}
+
+.order-card__name:focus-visible {
+  outline: 1px solid rgba(71, 80, 9, 0.70);
+  outline-offset: 2px;
 }
 
 .order-card__price {
@@ -35,7 +44,6 @@
   position: relative;
 }
 
-/* Перечеркнутая цена */
 .order-card__price-old::before {
   content: "";
   height: 2px;
@@ -46,4 +54,3 @@
   top: 50%;
   transform: translateY(-50%);
 }
-/* ---Перечеркнутая цена--- */

@@ -11,8 +11,19 @@ body {
   color: #475009;
   margin: 0;
   padding: 0;
+  /* Для прижатия footer к низу */
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
 }
 
+main {
+  flex-grow: 1;
+  /* ----Для прижатия footer к низу---- */
+  /* Фиксация шапки сайта */
+  padding-top: 182px;
+}
+/* --Фиксация шапки сайта---- */
 img {
   display: block;
   max-width: 100%;

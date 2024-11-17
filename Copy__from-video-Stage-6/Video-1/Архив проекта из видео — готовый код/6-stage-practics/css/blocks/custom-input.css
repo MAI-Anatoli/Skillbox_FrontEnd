@@ -1,0 +1,118 @@
+.custom-input {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  width: 360px;
+}
+
+.custom-input--error .custom-input__field {
+  border-color: #FF7373;
+}
+
+.custom-input--error .custom-input__error {
+  display: block;
+}
+
+.custom-input--icon .custom-input__field {
+  padding: 16px 40px 16px 54px;
+}
+
+.custom-input__field {
+  border: 2px solid #B7B7B7;
+  border-radius: 8px;
+  color: #475009;
+  font-family: inherit;
+  font-size: 16px;
+  line-height: 24px;
+  padding: 16px 40px 16px 20px;
+  width: 100%;
+}
+
+.custom-input__field:hover {
+  border-color: rgba(71, 80, 9, 0.70);
+}
+
+.custom-input__field:hover ~ .custom-input__icon {
+  color: rgba(71, 80, 9, 0.70);
+}
+
+.custom-input__field:focus-visible {
+  border-color: #475009;
+  outline: none;
+}
+
+.custom-input__field:focus-visible ~ .custom-input__icon {
+  color: #475009;
+}
+
+.custom-input__field:focus-visible + .custom-input__label {
+  color: rgba(71, 80, 9, 0.70);
+}
+
+.custom-input__field::placeholder {
+  color: #A3A3A3;
+}
+
+.custom-input__field[disabled] {
+  background-color: #ffffff;
+  border-color: rgba(173, 173, 173, 0.4);
+}
+
+.custom-input__field[disabled]::placeholder {
+  color: rgba(173, 173, 173, 0.4);
+}
+
+.custom-input__field[disabled] + .custom-input__label {
+  color: rgba(173, 173, 173, 0.4);
+}
+
+.custom-input__label {
+  background-color: #ffffff;
+  font-size: 14px;
+  font-weight: 700;
+  left: 15px;
+  line-height: 14px;
+  padding: 1px 4px;
+  position: absolute;
+  top: 0;
+  transform: translateY(-50%);
+  user-select: none;
+}
+
+.custom-input__icon {
+  color: #B7B7B7;
+  left: 20px;
+  pointer-events: none;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+.custom-input__button {
+  align-items: center;
+  background-color: #ffffff;
+  border: none;
+  color: #475009;
+  cursor: pointer;
+  display: flex;
+  height: 24px;
+  justify-content: center;
+  padding: 0;
+  position: absolute;
+  right: 15px;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 24px;
+}
+
+.custom-input__button:hover {
+  color: rgba(71, 80, 9, 0.70);
+}
+
+.custom-input__error {
+  color: #FF7373;
+  display: none;
+  font-size: 10px;
+  line-height: 10px;
+  margin: 5px 0 0 0;
+}

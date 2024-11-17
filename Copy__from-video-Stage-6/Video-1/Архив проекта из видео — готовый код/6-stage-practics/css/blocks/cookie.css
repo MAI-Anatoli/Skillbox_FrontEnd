@@ -5,15 +5,11 @@
   border-radius: 20px;
   box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
   padding: 40px 30px;
-  background-color: #FFFFFF;
-  display: none;
   position: fixed;
-  right: 10px;
-  bottom: 210px;
-}
-
-.cookie--active {
-  display: block;
+  right: 30px;
+  bottom: 100px;
+  background-color: #FFFFFF;
+  z-index: 10;
 }
 
 .cookie__text {
@@ -27,6 +23,10 @@
 
 .cookie__link {
   text-decoration: underline;
+}
+
+.cookie__link:hover {
+  color: rgba(71, 80, 9, 0.70);
 }
 
 .cookie__btn {

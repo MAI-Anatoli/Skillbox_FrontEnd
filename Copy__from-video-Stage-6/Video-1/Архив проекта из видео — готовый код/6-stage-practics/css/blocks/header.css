@@ -1,11 +1,11 @@
 .header {
   padding: 30px 0 0;
-  /* Фиксация шапки сайта */
   position: fixed;
   width: 100%;
-  background-color: #ffffff;
+  top: 0;
+  left: 0;
   z-index: 10;
-  /* ---Фиксация шапки сайта---- */
+  background-color: #ffffff;
 }
 
 .header__top {
@@ -34,6 +34,16 @@
   padding: 6px 12px;
 }
 
+.header__phone:hover {
+  border-color: rgba(71, 80, 9, 0.70);
+  color: rgba(71, 80, 9, 0.7);
+}
+
+.header__phone:focus-visible {
+  border-color: #502198;
+  outline: none;
+}
+
 .header__callback {
   background-color: transparent;
   border: none;
@@ -45,6 +55,15 @@
   line-height: 18px;
   padding: 0;
   text-decoration: underline;
+}
+
+.header__callback:hover {
+  color: rgba(71, 80, 9, 0.70);
+}
+
+.header__callback:focus-visible {
+  outline: 1px solid rgba(71, 80, 9, 0.70);
+  outline-offset: 2px;
 }
 
 .header__users {
@@ -60,13 +79,29 @@
   gap: 25px;
   list-style-type: none;
   padding: 0;
-  margin: 0;
 }
 
 .header__user-link {
   align-items: center;
   display: flex;
   position: relative;
+}
+
+.header__user-link:hover {
+  color: rgba(71, 80, 9, 0.70);
+}
+
+.header__user-link:hover .header__user-count {
+  background-color: rgba(82, 163, 69, 0.70);
+}
+
+.header__user-link:focus-visible {
+  color: #502198;
+  outline: none;
+}
+
+.header__user-link:focus .header__user-count {
+  background-color: #502198;
 }
 
 .header__user-count {
@@ -80,10 +115,10 @@
   height: 17px;
   justify-content: center;
   line-height: 10px;
-  width: 17px;
   position: absolute;
-  top: -5px;
   right: -5px;
+  top: -5px;
+  width: 17px;
 }
 
 .header__burger {

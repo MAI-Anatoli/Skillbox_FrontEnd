@@ -1,0 +1,19 @@
+.custom-textarea {
+  width: 360px;
+}
+
+.custom-textarea__field {
+  min-height: 150px;
+  border: 2px solid #B7B7B7;
+  border-radius: 8px;
+  padding: 15px;
+  width: 100%;
+  resize: none;
+  font-family: "Exo-2", "Arial", sans-serif;
+  font-size: 16px;
+  line-height: 24px;
+}
+
+.custom-textarea__field::placeholder {
+  color: #A3A3A3;
+}
