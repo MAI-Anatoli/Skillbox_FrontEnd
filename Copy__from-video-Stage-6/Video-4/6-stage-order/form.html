@@ -1,0 +1,421 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="css/style.css">
+  <title>Оформление заказа - Зеленый пассажир</title>
+</head>
+
+<body>
+  <header class="header">
+    <div class="container">
+      <div class="header__top">
+        <div class="header__contacts">
+          <a class="header__phone" href="tel:+79279999999">
+            <svg width="14" height="14" aria-hidden="true">
+              <use xlink:href="images/sprite.svg#icon-phone"></use>
+            </svg>
+            <span class="header__phone-text">+7 927 999-99-99</span>
+          </a>
+          <button class="header__callback" type="button">Перезвоните мне</button>
+        </div>
+        <a class="header__logo" href="#" aria-label="Ссылка на главную">
+          <svg width="320" height="56" aria-hidden="true">
+            <use xlink:href="images/sprite.svg#icon-header-logo"></use>
+          </svg>
+        </a>
+        <div class="header__users">
+          <ul class="header__user-list">
+            <li class="header__user-item">
+              <a class="header__user-link" href="#" aria-label="Перейти в корзину">
+                <svg width="24" height="24" aria-hidden="true">
+                  <use xlink:href="images/sprite.svg#icon-basket"></use>
+                </svg>
+                <span class="header__user-count" aria-hidden="true">4</span>
+              </a>
+            </li>
+            <li class="header__user-item">
+              <a class="header__user-link" href="#" aria-label="Перейти в избранное">
+                <svg width="24" height="24" aria-hidden="true">
+                  <use xlink:href="images/sprite.svg#icon-favorite"></use>
+                </svg>
+                <span class="header__user-count" aria-hidden="true">0</span>
+              </a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <nav class="main-nav">
+      <div class="container">
+        <ul class="main-nav__list">
+          <li class="main-nav__item">
+            <a class="main-nav__link" href="#">
+              <svg width="14" height="14" aria-hidden="true">
+                <use xlink:href="images/sprite.svg#icon-leaf"></use>
+              </svg>
+              <span class="header__nav-text">О Растениях</span>
+            </a>
+          </li>
+          <li class="main-nav__item">
+            <a class="main-nav__link" href="#">
+              <svg width="14" height="14" aria-hidden="true">
+                <use xlink:href="images/sprite.svg#icon-leaf"></use>
+              </svg>
+              <span class="header__nav-text">О Компании</span>
+            </a>
+          </li>
+          <li class="main-nav__item">
+            <a class="main-nav__link" href="#">
+              <svg width="14" height="14" aria-hidden="true">
+                <use xlink:href="images/sprite.svg#icon-leaf"></use>
+              </svg>
+              <span class="header__nav-text">Сотрудничество</span>
+            </a>
+          </li>
+          <li class="main-nav__item">
+            <a class="main-nav__link" href="#">
+              <svg width="14" height="14" aria-hidden="true">
+                <use xlink:href="images/sprite.svg#icon-leaf"></use>
+              </svg>
+              <span class="header__nav-text">Каталог</span>
+            </a>
+          </li>
+          <li class="main-nav__item">
+            <a class="main-nav__link" href="#">
+              <svg width="14" height="14" aria-hidden="true">
+                <use xlink:href="images/sprite.svg#icon-leaf"></use>
+              </svg>
+              <span class="header__nav-text">Контакты</span>
+            </a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+  </header>
+  <main>
+    <section class="order">
+      <div class="container">
+        <div class="order__wrapper">
+          <div class="order__left-col">
+            <h1 class="order__title">Оформление заказа</h1>
+            <form class="order-form" action="#" method="POST">
+
+              <!-- Покупатель -->
+              <fieldset class="order-form__group">
+                <legend class="order-form__group-name">Покупатель</legend>
+                <div class="order-form__inner">
+                  <div class="custom-input custom-input--error">
+                    <input class="custom-input__field" type="text" name="user-last-name" id="user-last-name"
+                      placeholder="Кириллов" required>
+                    <label class="custom-input__label" for="user-last-name">Фамилия *</label>
+                    <span class="custom-input__error">Данное поле должно быть заполнено</span>
+                  </div>
+                  <div class="custom-input">
+                    <input class="custom-input__field" type="text" name="user-name" id="user-name" placeholder="Олег"
+                      required>
+                    <label class="custom-input__label" for="user-name">Имя *</label>
+                  </div>
+                  <div class="custom-input">
+                    <input class="custom-input__field" type="text" name="user-surname" id="user-surname"
+                      placeholder="Андреевич">
+                    <label class="custom-input__label" for="user-surname">Отчество</label>
+                  </div>
+                  <div class="custom-checkbox custom-checkbox--error">
+                    <input class="custom-checkbox__filed visually-hidden" type="checkbox" id="client-true"
+                      name="client-true">
+                    <label class="custom-checkbox__label" for="client-true">
+                      <span class="custom-checkbox__heading">Стать постоянный клиентом</span>
+                      <span class="custom-checkbox__text">Вы сможете видеть историю заказов, проще делать новые и
+                        получать скидки</span>
+                      <svg class="custom-checkbox__icon" width="18" height="13" aria-hidden="true">
+                        <use xlink:href="images/sprite.svg#icon-check"></use>
+                      </svg>
+                    </label>
+                  </div>
+                  <div class="custom-input">
+                    <input class="custom-input__field" type="password" name="user-password" id="user-password"
+                      placeholder="Придумайте пароль" disabled>
+                    <label class="custom-input__label" for="user-password">Пароль *</label>
+                  </div>
+                </div>
+              </fieldset>
+
+              <!-- Контактная информация -->
+              <fieldset class="order-form__group">
+                <legend class="order-form__group-name">Контактная информация</legend>
+                <div class="order-form__inner">
+                  <div class="custom-input custom-input--icon">
+                    <input class="custom-input__field" type="tel" name="user-phone" id="user-phone"
+                      placeholder="+7999999999" required>
+                    <label class="custom-input__label" for="user-phone">Телефон *</label>
+                    <svg class="custom-input__icon" width="24" height="24" aria-hidden="true">
+                      <use xlink:href="images/sprite.svg#icon-phone-input"></use>
+                    </svg>
+                  </div>
+                  <div class="custom-input custom-input--icon">
+                    <input class="custom-input__field" type="email" name="user-mail" id="user-mail"
+                      placeholder="mail@mail.ru">
+                    <label class="custom-input__label" for="user-mail">Почта</label>
+                    <svg class="custom-input__icon" width="24" height="24" aria-hidden="true">
+                      <use xlink:href="images/sprite.svg#icon-mail"></use>
+                    </svg>
+                  </div>
+                </div>
+              </fieldset>
+
+              <!-- Комментарий к заказу -->
+              <fieldset class="order-form__group">
+                <legend class="order-form__group-name">Комментарий к заказу</legend>
+                <div class="order-form__inner">
+                  <div class="custom-textarea">
+                    <textarea class="custom-textarea__field" name="comment" aria-label="Введите ваш комментарий"
+                      placeholder="Введите ваш комментарий"></textarea>
+                  </div>
+                </div>
+              </fieldset>
+
+              <!-- Бонусы / скидки -->
+              <fieldset class="order-form__group">
+                <legend class="order-form__group-name">Бонусы / скидки</legend>
+                <div class="order-form__inner">
+                  <div class="custom-input">
+                    <input class="custom-input__field" type="text" name="promo" id="promo" value="GP314-20"
+                      placeholder="Введите промокод">
+                    <label class="custom-input__label" for="promo">Промокод</label>
+                    <button class="custom-input__button" type="button" aria-label="Очистить поле">
+                      <svg class="custom-input__button-icon" width="12" height="12">
+                        <use xlink:href="images/sprite.svg#icon-close"></use>
+                      </svg>
+                    </button>
+                  </div>
+                </div>
+              </fieldset>
+
+              <!-- Доставка -->
+              <fieldset class="order-form__group">
+                <legend class="order-form__group-name">Доставка</legend>
+                <div class="order-form__inner">
+                  <div class="custom-radio">
+                    <input class="custom-radio__field visually-hidden" id="radio-self" type="radio" name="delivery"
+                      value="self" checked>
+                    <label class="custom-radio__label" for="radio-self">
+                      <span class="custom-radio__top">
+                        <span class="custom-radio__name">Самовывоз</span>
+                        <span class="custom-radio__price">+ 0 руб.</span>
+                      </span>
+                      <span class="custom-radio__text">Из нашего офиса: г. Самара пр. Ленина 1а</span>
+                    </label>
+                  </div>
+                  <div class="custom-radio">
+                    <input class="custom-radio__field visually-hidden" id="radio-courier" type="radio" name="delivery"
+                      value="courier">
+                    <label class="custom-radio__label" for="radio-courier">
+                      <span class="custom-radio__top">
+                        <span class="custom-radio__name">Курьером</span>
+                        <span class="custom-radio__price">+ 450 руб.</span>
+                      </span>
+                      <span class="custom-radio__text">Доставка курьером до двери</span>
+                    </label>
+                  </div>
+                  <div class="custom-radio">
+                    <input class="custom-radio__field visually-hidden" id="radio-post" type="radio" name="delivery"
+                      value="post">
+                    <label class="custom-radio__label" for="radio-post">
+                      <span class="custom-radio__top">
+                        <span class="custom-radio__name">Почтой</span>
+                        <span class="custom-radio__price">+ 250 руб.</span>
+                      </span>
+                      <span class="custom-radio__text">До ближайшего отделения почты</span>
+                    </label>
+                  </div>
+                </div>
+              </fieldset>
+
+              <!-- Способ оплаты -->
+              <fieldset class="order-form__group">
+                <legend class="order-form__group-name">Способ оплаты</legend>
+                <div class="order-form__inner">
+                  <div class="custom-radio">
+                    <input class="custom-radio__field visually-hidden" id="payment-cash" type="radio" name="payment"
+                      value="cash">
+                    <label for="payment-cash" class="custom-radio__label">
+                      <span class="custom-radio__top">
+                        <span class="custom-radio__name">Наличными</span>
+                      </span>
+                      <span class="custom-radio__text">Оплата наличными доступна только при самовывозе </span>
+                    </label>
+                  </div>
+                  <div class="custom-radio">
+                    <input class="custom-radio__field visually-hidden" id="payment-transfer" type="radio" name="payment"
+                      value="transfer">
+                    <label class="custom-radio__label" for="payment-transfer">
+                      <span class="custom-radio__top">
+                        <span class="custom-radio__name">Перевод на карту</span>
+                      </span>
+                      <span class="custom-radio__text">По номеру карты зеленого или желтого банка</span>
+                    </label>
+                  </div>
+                  <div class="custom-radio">
+                    <input class="custom-radio__field visually-hidden" id="payment-later" type="radio" name="payment"
+                      value="later">
+                    <label class="custom-radio__label" for="payment-later">
+                      <span class="custom-radio__top">
+                        <span class="custom-radio__name">Наложенным платежом</span>
+                      </span>
+                      <span class="custom-radio__text">Доступно только при заказе почтой</span>
+                    </label>
+                  </div>
+                  <div class="custom-radio">
+                    <input class="custom-radio__field visually-hidden" id="payment-card" type="radio" name="payment"
+                      value="card" checked>
+                    <label class="custom-radio__label" for="payment-card">
+                      <span class="custom-radio__top">
+                        <span class="custom-radio__name">Картой на сайте</span>
+                      </span>
+                      <span class="custom-radio__text">Оплатить через форму на сайте</span>
+                    </label>
+                  </div>
+                </div>
+              </fieldset>
+
+              <div class="custom-checkbox">
+                <input class="custom-checkbox__filed visually-hidden" type="checkbox" id="agree" name="agree">
+                <label class="custom-checkbox__label" for="agree">
+                  <span class="custom-checkbox__heading">Нажимая кнопку, вы соглашаетесь на <a
+                      class="custom-checkbox__link" href="#">обработку ваших персональных данных</a></span>
+                  <svg class="custom-checkbox__icon" width="18" height="13" aria-hidden="true">
+                    <use xlink:href="images/sprite.svg#icon-check"></use>
+                  </svg>
+                </label>
+              </div>
+
+              <button class="order-form__btn btn btn--size-xl" type="submit">Оформить заказ</button>
+
+            </form>
+          </div>
+          <div class="order__right-col">
+            <h2 class="order__subtitle">Состав заказа</h2>
+            <ul class="order__list">
+              <li class="order__item">
+                <div class="order-card">
+                  <div class="order-card__inner">
+                    <img class="order-card__img" src="images/order-item-1.jpg" height="66" width="99"
+                      alt="Изображение товара">
+                    <span class="order-card__sale">%</span>
+                  </div>
+                  <a class="order-card__name" href="#">Сциндапсус (18см / 20см)</a>
+                  <span class="order-card__price">1 x <span class="order-card__price-old">1200р</span> 1000р</span>
+                </div>
+              </li>
+              <li class="order__item">
+                <div class="order-card">
+                  <div class="order-card__inner">
+                    <img class="order-card__img" src="images/order-item-2.jpg" height="66" width="99"
+                      alt="Изображение товара">
+                  </div>
+                  <a class="order-card__name" href="#">Лавр (22см / 28см)</a>
+                  <span class="order-card__price">1 x 600р</span>
+                </div>
+              </li>
+              <li class="order__item">
+                <div class="order-card">
+                  <div class="order-card__inner">
+                    <img class="order-card__img" src="images/order-item-3.jpg" height="66" width="99"
+                      alt="Изображение товара">
+                  </div>
+                  <a class="order-card__name" href="#">Драцена (16см / 35см)</a>
+                  <span class="order-card__price">1 x 1500р</span>
+                </div>
+              </li>
+            </ul>
+            <div class="order__summary">
+              <div class="order__summary-inner">
+                <span class="order__summary-name">Стоимость товаров</span>
+                <span class="order__summary-count">3100р</span>
+              </div>
+              <div class="order__summary-inner">
+                <span class="order__summary-name">Стоимость доставки</span>
+                <span class="order__summary-count">0р</span>
+              </div>
+            </div>
+            <div class="order__total">
+              <span class="order__total-name">Итого к оплате</span>
+              <span class="order__total-count">3100р</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <div class="cookie cookie--active">
+      <p class="cookie__text">Продолжая использовать этот сайт и нажимая кнопку «Принимаю», вы даете <a
+          class="cookie__link" href="#">согласие на обработку файлов cookie</a></p>
+      <button class="cookie__btn btn" type="button">Принимаю</button>
+    </div>
+  </main>
+  <footer class="footer">
+    <div class="container">
+      <div class="footer__wrapper">
+        <div class="footer__left">
+          <a class="footer__logo-link" href="#" aria-label="Ссылка на главную страницу">
+            <svg width="202" height="60" aria-hidden="true">
+              <use xlink:href="images/sprite.svg#icon-footer-logo"></use>
+            </svg>
+          </a>
+          <ul class="footer__social social">
+            <li class="social__item">
+              <a class="social__link" href="#" aria-label="Ссылка на соцсеть ВКонтакте">
+                <svg width="22" height="13" aria-hidden="true">
+                  <use xlink:href="images/sprite.svg#icon-vk"></use>
+                </svg>
+              </a>
+            </li>
+            <li class="social__item">
+              <a class="social__link" href="#" aria-label="Ссылка на соцсеть Одноклассники">
+                <svg width="15" height="22" aria-hidden="true">
+                  <use xlink:href="images/sprite.svg#icon-ok"></use>
+                </svg>
+              </a>
+            </li>
+          </ul>
+        </div>
+        <ul class="footer__nav-list">
+          <li class="footer__nav-item">
+            <a class="footer__nav-link" href="#">О растениях</a>
+          </li>
+          <li class="footer__nav-item">
+            <a class="footer__nav-link" href="#">О Компании</a>
+          </li>
+          <li class="footer__nav-item">
+            <a class="footer__nav-link" href="#">Сотрудничество</a>
+          </li>
+          <li class="footer__nav-item">
+            <a class="footer__nav-link" href="#">Каталог</a>
+          </li>
+          <li class="footer__nav-item">
+            <a class="footer__nav-link" href="#">Новости</a>
+          </li>
+          <li class="footer__nav-item">
+            <a class="footer__nav-link" href="#">Контакты</a>
+          </li>
+        </ul>
+        <div class="footer__right">
+          <div class="footer__contact">
+            <span class="footer__contact-text">Телефон:</span>
+            <a class="footer__contact-link" href="tel:+79279999999">+7 927 999-99-99</a>
+          </div>
+          <div class="footer__contact">
+            <span class="footer__contact-text">Почта:</span>
+            <a class="footer__contact-link" href="mailto:hello@gpassenger.ru">hello@gpassenger.ru</a>
+          </div>
+        </div>
+      </div>
+      <p class="footer__copyright">&copy;&nbsp; зеленый пассажир, Все права защищены</p>
+    </div>
+  </footer>
+</body>
+
+</html>
